@@ -15,3 +15,14 @@ public class Circle extends Shape {
     return Math.pow(radius, 2);
 
 }
+
+private static double areaDiff(Rectangle r, Triangle t) {
+    
+     return r.area()- t.area();
+
+}
+
+
+
+
+}
